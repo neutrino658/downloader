@@ -3,5 +3,5 @@ Options -Indexes
 # Protect param.yml
 <Files "param.yml">
 	Order Allow,Deny
-	Allow from all
+	Deny from all
 </Files>
